@@ -16,7 +16,16 @@ _global_script_class_icons={
 [application]
 
 config/name="My_Seven_Joys"
+run/main_scene="res://Level1.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=512
+window/size/height=256
+window/size/test_width=1024
+window/size/test_height=600
+window/stretch/mode="viewport"
 
 [rendering]
 
