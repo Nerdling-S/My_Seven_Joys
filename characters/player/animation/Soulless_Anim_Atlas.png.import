@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Soulless_Rest.png-84d6368ac7c547acefa0dad757118af4.stex"
+path="res://.import/Soulless_Anim_Atlas.png-b8cf37a1c1fc729f616f614a698b0a89.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/player/Soulless_Rest.png"
-dest_files=[ "res://.import/Soulless_Rest.png-84d6368ac7c547acefa0dad757118af4.stex" ]
+source_file="res://characters/player/animation/Soulless_Anim_Atlas.png"
+dest_files=[ "res://.import/Soulless_Anim_Atlas.png-b8cf37a1c1fc729f616f614a698b0a89.stex" ]
 
 [params]
 
@@ -30,5 +30,5 @@ process/HDR_as_SRGB=false
 process/invert_color=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0
