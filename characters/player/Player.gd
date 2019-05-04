@@ -31,7 +31,4 @@ func _physics_process(delta):
 	if velocity.x == 0:
 		$Sprite.change_anim(0)
 		
-	var collision_info
-	collision_info = move_and_collide(velocity * delta)
-		
 	velocity = move_and_slide(velocity, Vector2(0,-1))
