@@ -15,17 +15,23 @@ func poll_input():
 		
 	if Input.is_action_pressed("game_right"):
 		velocity.x += run_speed
+		$Sprite.scale.x = 1
+		$Sprite.change_anim(1)
 		
 	if Input.is_action_pressed("game_left"):
 		velocity.x -= run_speed
+		$Sprite.scale.x = -1
+		$Sprite.change_anim(1)
 
 func _physics_process(delta):
 	velocity.y += gravity * delta
 	
 	poll_input()
 	
+	if velocity.x == 0:
+		$Sprite.change_anim(0)
+		
 	var collision_info
-	
 	collision_info = move_and_collide(velocity * delta)
-	
+		
 	velocity = move_and_slide(velocity, Vector2(0,-1))
