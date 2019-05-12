@@ -2,11 +2,11 @@
 
 [ext_resource path="res://background/tilesets/Tileset_3x3.tres" type="TileSet" id=1]
 [ext_resource path="res://characters/player/Player.gd" type="Script" id=2]
-[ext_resource path="res://characters/player/animation/Soulless_Anim_Atlas.png" type="Texture" id=3]
-[ext_resource path="res://Sprite.gd" type="Script" id=4]
-[ext_resource path="res://characters/player/Player_Shape.tres" type="Shape2D" id=5]
-[ext_resource path="res://characters/player/animation/Player_Run_Shape.tres" type="Shape2D" id=6]
-[ext_resource path="res://characters/player/animation/Player_Run_Anim.tres" type="Animation" id=7]
+[ext_resource path="res://characters/player/graphics/Soulless_Anim_Atlas.png" type="Texture" id=3]
+[ext_resource path="res://characters/player/Sprite.gd" type="Script" id=4]
+[ext_resource path="res://characters/player/graphics/Player_Shape.tres" type="Shape2D" id=5]
+[ext_resource path="res://characters/player/graphics/Player_Run_Shape.tres" type="Shape2D" id=6]
+[ext_resource path="res://characters/player/graphics/Player_Run_Anim.tres" type="Animation" id=7]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Run"
@@ -40,8 +40,8 @@ script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Player"]
 texture = ExtResource( 3 )
+vframes = 2
 hframes = 4
-frame = 1
 script = ExtResource( 4 )
 
 [node name="RestCollisionShape" type="CollisionShape2D" parent="Player"]
