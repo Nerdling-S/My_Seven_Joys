@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/WIP_Tileset.png-03615e2e1a1051d33a04a4a83850944c.stex"
+path="res://.import/Wrath Tileset.png-c6b5205d51e7c35a96571c78ca550960.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://background/tilesets/WIP_Tileset.png"
-dest_files=[ "res://.import/WIP_Tileset.png-03615e2e1a1051d33a04a4a83850944c.stex" ]
+source_file="res://background/tilesets/Wrath Tileset.png"
+dest_files=[ "res://.import/Wrath Tileset.png-c6b5205d51e7c35a96571c78ca550960.stex" ]
 
 [params]
 
